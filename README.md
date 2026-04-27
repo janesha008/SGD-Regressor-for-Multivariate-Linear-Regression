@@ -39,7 +39,6 @@ new_data=scaler.transform([[size,bed]])
 price_pred=price_model.predict(new_data)
 occ_pred=occ_model.predict(new_data)
 
-
 print("Predicted Price: ",price_pred)
 print("Predicted Occupants: ",round(occ_pred[0]))
 ```
